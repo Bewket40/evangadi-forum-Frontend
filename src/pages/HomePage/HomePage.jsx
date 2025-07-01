@@ -261,7 +261,7 @@
 
 // export default HomePage;
 import React, { useEffect, useState } from "react";
-import classes from "./HomePage.module.css";
+import classes from "./Homepage.module.css";
 import axios from "../../utils/axios";
 import { Link } from "react-router-dom";
 import { timeAgo } from "../../utils/formatter";

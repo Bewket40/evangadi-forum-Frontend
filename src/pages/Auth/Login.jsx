@@ -64,7 +64,8 @@ function Login({ toggler }) {
 
       const result = await axios.post("/auth/login", credentials);
 
-      // console.log("Login response:", result.data);
+
+           console.log("Login response:", result.data);
 
       if (result.data?.success) {
         const token = result?.data?.token;

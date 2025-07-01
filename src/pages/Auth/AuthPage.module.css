@@ -162,6 +162,7 @@ form button {
   top: 42%;
   right: 10px;
   cursor: pointer;
+  -webkit-user-select: none;
   user-select: none;
 }
 

@@ -1,5 +1,5 @@
 import {Route, Routes} from 'react-router-dom'
-import HomePage from './Pages/HomePage/HomePage.jsx'
+import HomePage from "./Pages/HomePage/Homepage.jsx"
 import AuthPage from './Pages/Auth/AuthPage.jsx'
 import Header from './Components/Header/Header'
 import Footer from './Components/Footer/Footer'
