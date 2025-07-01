@@ -1,14 +1,14 @@
 import {Route, Routes} from 'react-router-dom'
-import HomePage from './pages/HomePage/HomePage'
-import AuthPage from './pages/Auth/AuthPage'
+import HomePage from './Pages/HomePage/HomePage.jsx'
+import AuthPage from './Pages/Auth/AuthPage.jsx'
 import Header from './Components/Header/Header'
 import Footer from './Components/Footer/Footer'
-import AskQuestion from './pages/AskQuestion/AskQuestion'
-import Answer from './pages/Answer/Answer.jsx'
-import Howitwork from './Pages/Howitwork/Howitwork'
+import AskQuestion from './Pages/AskQuestion/AskQuestion.jsx'
+import Answer from './Pages/Answer/Answer.jsx'
+import Howitwork from './Pages/Howitwork/Howitwork.jsx'
 import Protected from './Components/Protected'
-import Profile from './Pages/Profile/Profile'
-import EditQuestion from "./pages/EditQuestion/EditQuestion";
+import Profile from './Pages/Profile/Profile.jsx'
+import EditQuestion from "./Pages/EditQuestion/EditQuestion.jsx";
 import { Spinner } from 'react-bootstrap';
 import { useContext } from 'react'
 import { Context } from './Components/Context'
